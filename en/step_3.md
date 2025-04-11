@@ -1,22 +1,63 @@
-## What can you do now?
+<h2 class="c-project-heading--task">Draw the eyes and tongue</h2>
+--- task ---
+Add white eyes with black pupils, and a red tongue underneath the frog.
+--- /task ---
 
-If you are following the [PATH NAME](https://projects.raspberrypi.org/en/pathways/PATH-NAME) pathway, you can move on to the [NEXT PROJECT/PATH NAME](https://projects.raspberrypi.org/en/projects/PROJECT-SLUG) project. In this project, you will do DESCRIPTION.
+<h2 class="c-project-heading--explainer">Add some character</h2>
 
------- OR ---------
+Let’s make your frog more expressive by adding two white eyes, black pupils, and a red tongue. 👀👅
 
-Try our [PROJECT/PATH NAME](https://projects.raspberrypi.org/en/collections/PATH-SLUG) project pathway where you will DESCRIPTION.
+We’ll use `circle(x, y, size)` for the eyes and pupils — circles are just a simpler version of ellipses.
 
---- print-only --- 
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 11
+line_highlights: 22-27
+---
+def draw():
+    image(bg, 0, 0, width, height)
+    fill('green')
+    ellipse(x, y, 100, 80)               # body
+    ellipse(x - 30, y + 30, 30, 20)      # left foot
+    ellipse(x + 30, y + 30, 30, 20)      # right foot
 
-![ALT TEXT](images/IMAGE-FROM-PROJECT.png)
+    fill('white')
+    circle(x - 20, y - 40, 25)           # left eye
+    circle(x + 20, y - 40, 25)           # right eye
 
---- /print-only ---
+    fill('black')
+    circle(x - 20, y - 40, 10)           # left pupil
+    circle(x + 20, y - 40, 10)           # right pupil
 
---- no-print ---
+    fill('red')
+    ellipse(x, y + 20, 10, 30)           # tongue
+--- /code ---
+</div>
 
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/STARTER_PROJECT_SLUG" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe>
+<div class="c-project-output">
+![A cartoon frog with white eyes, black pupils, and a red tongue](images/step_3.png)
+</div>
 
---- /no-print ---
+<div class="c-project-callout c-project-callout--tip">
 
-Or, why not try out another [CODING_LANGUAGE](https://projects.raspberrypi.org/en/projects?software%5B%5D=CODING_LANGUAGE) project.
+### Tip
+
+Try changing the size of the eyes or tongue!  
+What happens if you move the pupils closer together or further apart?
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+If your eyes or tongue aren’t showing:<br />
+- Make sure each shape has the right number of values<br />
+- Use `fill()` before drawing each part<br />
+- Check for typos in `circle()` and `ellipse()`
+
+</div>

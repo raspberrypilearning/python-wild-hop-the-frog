@@ -1,42 +1,63 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+<h2 class="c-project-heading--task">Add a background</h2>
+--- task ---
+Add an image that fills the screen with a pond background.
+--- /task ---
 
-A brief description - one or two sentences. 
+<h2 class="c-project-heading--explainer">Set the scene</h2>
 
---- print-only ---
-![ALT TEXT](images/IMAGE.png)
---- /print-only ---
+Let’s start by adding a pond background to your screen. 🐸  
+You’ll use `load_image()` to load a picture and `image()` to draw it each frame.
 
---- no-print ---
+The image is already provided and saved as **`background.png`** in the same folder as your code.
 
-Editor embed 
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 10, 17
+---
+from p5 import *
 
---- /no-print ---
+x = 200
+y = 200
+speed = 0
+gravity = 1
+jumping = False
 
---- no-print ---
-Video embed
+def setup():
+    size(400, 400)
+    global bg
+    bg = load_image('background.png')
+    no_stroke()
 
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
+def draw():
+    image(bg, 0, 0, width, height)
+--- /code ---
 </div>
 
---- /no-print ---
+<div class="c-project-output">
+![A full-screen pond background](images/step_1.png)
+</div>
 
-### You will need:
-- a
-- b
-- c
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+The `image()` function places the image at a position.  
+To fill the screen, pass in `0, 0, width, height`.
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+If the background doesn’t appear:<br />
+- Make sure `load_image('background.png')` is inside `setup()`<br />
+- Double-check the spelling of the file name<br />
+- Use `image(bg, 0, 0, width, height)` in `draw()`
+
+</div>
