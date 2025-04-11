@@ -51,7 +51,7 @@ run()
 
 ### Tip
 
-The `image()` function places the image at a position.  
+The `image()` function places the image at a position.  <br />
 To fill the screen, pass in `0, 0, width, height`.
 
 </div>

@@ -23,24 +23,9 @@ This will make it easy to animate later on.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 1
-line_highlights: 21-23
+line_number_start: 16
+line_highlights: 20-23
 ---
-from p5 import *
-
-x = 200 # horizontal middle
-y = 200 # vertical middle
-speed = 0
-gravity = 1
-jumping = False
-
-def setup():
-    size(400, 400)
-    no_stroke()
-    global bg
-    bg = load_image('background.png')
-
-
 def draw():
     image(bg, 0, 0, width, height)
     
@@ -60,7 +45,7 @@ def draw():
 
 ### Tip
 
-Try changing the numbers to see how the shapes move!  
+Try changing the numbers to see how the shapes move!  <br />
 Notice how each part is drawn **after** the background — otherwise it would be hidden. 🎨
 
 </div>
