@@ -1,4 +1,4 @@
-name: "Code Project Example"
-identifier: "code-project-example"
+name: "Python wild - Hop the Frog"
+identifier: "python-wild-hop-the-frog"
 type: 'python'
-build: false
+build: true
