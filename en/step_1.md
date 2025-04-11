@@ -1,11 +1,11 @@
 <h2 class="c-project-heading--task">Add a background</h2>
 --- task ---
-Add an image that fills the screen with a pond background.
+Add an image that fills the screen with a pond background. 🐸🌿
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Set the scene</h2>
 
-Let’s start by adding a pond background to your screen. 🐸  
+Let’s start by adding a pond background to your screen.  
 You’ll use `load_image()` to load a picture and `image()` to draw it each frame.
 
 The image is already provided and saved as **`background.png`** in the same folder as your code.
@@ -17,24 +17,29 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 10, 17
+line_highlights: 12-13, 17
 ---
 from p5 import *
 
-x = 200
-y = 200
+x = 200 # horizontal middle
+y = 200 # vertical middle
 speed = 0
 gravity = 1
 jumping = False
 
 def setup():
     size(400, 400)
+    no_stroke()
     global bg
     bg = load_image('background.png')
-    no_stroke()
+
 
 def draw():
     image(bg, 0, 0, width, height)
+    
+    # Draw Frog here
+
+run()
 --- /code ---
 </div>
 

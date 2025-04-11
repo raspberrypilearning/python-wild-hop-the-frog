@@ -1,15 +1,15 @@
 <h2 class="c-project-heading--task">Stretch the frog’s legs</h2>
 --- task ---
-Use the same `stretch` value to make the frog’s legs grow when it jumps. 🦵🦵
+Make the frog’s feet stretch as it jumps. 🐾
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Add extra spring</h2>
+<h2 class="c-project-heading--explainer">Push off with power!</h2>
 
-Your frog’s body stretches when it jumps — now let’s do the same for its legs.  
-This will make the whole frog feel more bouncy and alive! 🐸💨
+Now let’s stretch the frog’s legs as it leaps.  
+We’ll change the **height** of the feet using the same `stretch` variable.
 
-We’ll use the same `stretch` variable and add it to the **height** of the feet.  
-You can make the effect bigger by multiplying `stretch`, like this: `stretch * 3`.
+Multiply the `stretch` by a number to exaggerate the leg movement.  
+Try `stretch * 2` or `stretch * 3`!
 
 <div class="c-project-code">
 --- code ---
@@ -17,8 +17,8 @@ You can make the effect bigger by multiplying `stretch`, like this: `stretch * 3
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 20
-line_highlights: 26-27
+line_number_start: 23
+line_highlights: 31-32
 ---
 def draw():
     global y, speed, jumping
@@ -30,47 +30,28 @@ def draw():
     ellipse(x, y, 100, 80 + stretch)                     # body
     ellipse(x - 30, y + 30, 30, 20 + stretch * 3)        # left foot
     ellipse(x + 30, y + 30, 30, 20 + stretch * 3)        # right foot
-
-    fill('white')
-    circle(x - 20, y - 40, 25)                           # left eye
-    circle(x + 20, y - 40, 25)                           # right eye
-
-    fill('black')
-    circle(x - 20, y - 40, 10)                           # left pupil
-    circle(x + 20, y - 40, 10)                           # right pupil
-
-    fill('red')
-    ellipse(x, y + 20, 10, 30)                           # tongue
-
-    if jumping:
-        y += speed
-        speed += gravity
-        if y >= 200:
-            y = 200
-            speed = 0
-            jumping = False
 --- /code ---
 </div>
 
 <div class="c-project-output">
-![Frog with springy stretched legs mid-jump](images/step_7.png)
+![A frog mid-jump with stretched feet](images/step_7.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
-### Tip 💡
+### Tip
 
-Try changing the multiplier on the legs.  
-What happens if you use `stretch * 2` or `stretch * 5` instead?
+If the feet stretch too much, try multiplying by a smaller number. <br />
+Stretching by `stretch * 2` will look gentler than `stretch * 3`.
 
 </div>
 
 <div class="c-project-callout c-project-callout--debug">
 
-### Debugging 🧩
+### Debugging
 
-If your frog’s legs don’t stretch:<br />
-- Make sure you added `stretch * 3` to the **height** of the ellipses<br />
-- Check that both feet are updated the same way
+If the feet look wrong:<br />
+- Make sure you're adding `stretch * 3` to the **height** of each foot<br />
+- Double-check the position of the feet is still `x - 30` and `x + 30`
 
 </div>
