@@ -1,22 +1,21 @@
-<h2 class="c-project-heading--task">Draw the frog's body and legs</h2>
+<h2 class="c-project-heading--task">Draw the frog</h2>
 --- task ---
-Use green ellipses to draw the frog’s body and feet.
+Use ellipses to draw the frog’s body and feet. 🐸👣
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Draw your frog</h2>
+<h2 class="c-project-heading--explainer">Draw the body and feet</h2>
 
-Let’s draw a cartoon frog using a shape called an **ellipse**.  
-An ellipse is like a squashed or stretched circle.
+Your frog needs a body and feet!  
+You’ll use `ellipse()` to draw ovals. 🥚
 
-To draw one, use `ellipse(x, y, width, height)`  
-- `x` and `y` control where it goes  
-- `width` is how wide it is  
-- `height` is how tall it is
+The `ellipse()` function takes **4 arguments**:
+- x position
+- y position
+- width
+- height
 
-We’ll use two variables, `x` and `y`, to control where the frog sits.  
-The frog’s **body** is drawn at `(x, y)`, and the **feet** are drawn just below it using offsets like `x - 30` and `y + 30`.
-
-This makes it easier to move the whole frog later by changing just `x` and `y`.
+Each part of the frog is placed **relative to `x` and `y`**.  
+This will make it easy to animate later on.
 
 <div class="c-project-code">
 --- code ---
@@ -24,11 +23,13 @@ This makes it easier to move the whole frog later by changing just `x` and `y`.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 11
-line_highlights: 18-20
+line_number_start: 16
+line_highlights: 20-23
 ---
 def draw():
     image(bg, 0, 0, width, height)
+    
+    # Draw Frog here
     fill('green')
     ellipse(x, y, 100, 80)               # body
     ellipse(x - 30, y + 30, 30, 20)      # left foot
@@ -37,25 +38,14 @@ def draw():
 </div>
 
 <div class="c-project-output">
-![A green cartoon frog body and feet on a pond background](images/step_2.png)
+![A green frog body and feet sitting on a lily pad](images/step_2.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-Try changing the numbers to move the feet further apart or closer together.  
-What happens if you draw them above the frog instead?
-
-</div>
-
-<div class="c-project-callout c-project-callout--debug">
-
-### Debugging
-
-If nothing shows up:<br />
-- Make sure `fill()` comes *before* the `ellipse()` calls<br />
-- Check that each `ellipse()` has four numbers inside<br />
-- Make sure the `draw()` function is spelled correctly
+Try changing the numbers to see how the shapes move!  <br />
+Notice how each part is drawn **after** the background — otherwise it would be hidden. 🎨
 
 </div>

@@ -13,6 +13,7 @@ def setup():
 
 def draw():
     background('white')
+
     # Draw Frog here
 
 run()

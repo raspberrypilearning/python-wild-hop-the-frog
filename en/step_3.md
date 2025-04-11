@@ -15,11 +15,13 @@ We’ll use `circle(x, y, size)` for the eyes and pupils — circles are just a 
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 11
-line_highlights: 22-27
+line_number_start: 23
+line_highlights: 32-34, 36-38, 40-41
 ---
 def draw():
     image(bg, 0, 0, width, height)
+    # Draw Frog here
+
     fill('green')
     ellipse(x, y, 100, 80)               # body
     ellipse(x - 30, y + 30, 30, 20)      # left foot

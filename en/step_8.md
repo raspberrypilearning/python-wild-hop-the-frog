@@ -1,18 +1,14 @@
-<h2 class="c-project-heading--task">Move the eyes and stretch the tongue</h2>
+<h2 class="c-project-heading--task">Stretch the eyes and tongue</h2>
 --- task ---
-Use the `stretch` variable to move the frog’s eyes and squash the tongue during a jump. 👀👅
+Make the frog’s eyes rise and its tongue shrink when it jumps! 👀👅
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Final touches</h2>
+<h2 class="c-project-heading--explainer">Finishing touches</h2>
 
-Let’s finish your frog with some fun details! 🐸✨  
-In this step, the eyes **lift up** and the tongue gets **squashed** when the frog jumps.
+Let’s stretch the eyes so they rise during a jump, and shrink the tongue to make it look like it’s pulling up from the lily pad.
 
-We’re still using the same `stretch` variable:  
-- The eyes move up slightly using `+ stretch / 2`  
-- The tongue gets shorter using `30 - stretch / 2`
-
-Small changes make your animation look more alive and bouncy!
+Use the same `stretch` variable to change the `y` positions and height.  
+This adds polish to the animation! ✨
 
 <div class="c-project-code">
 --- code ---
@@ -20,60 +16,43 @@ Small changes make your animation look more alive and bouncy!
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 20
-line_highlights: 25-27, 29-31
+line_number_start: 34
+line_highlights: 35-36, 39-40, 43
 ---
-def draw():
-    global y, speed, jumping
-    image(bg, 0, 0, width, height)
-    fill('green')
-
-    stretch = 30 if jumping else 0
-
-    ellipse(x, y, 100, 80 + stretch)                     # body
-    ellipse(x - 30, y + 30, 30, 20 + stretch * 3)        # left foot
-    ellipse(x + 30, y + 30, 30, 20 + stretch * 3)        # right foot
-
     fill('white')
-    circle(x - 20, y - 40 + stretch / 2, 25)             # left eye
-    circle(x + 20, y - 40 + stretch / 2, 25)             # right eye
+    circle(x - 20, y - 40 + stretch / 2, 25)   # left eye
+    circle(x + 20, y - 40 + stretch / 2, 25)   # right eye
 
     fill('black')
-    circle(x - 20, y - 40 + stretch / 2, 10)             # left pupil
-    circle(x + 20, y - 40 + stretch / 2, 10)             # right pupil
+    circle(x - 20, y - 40 + stretch / 2, 10)   # left pupil
+    circle(x + 20, y - 40 + stretch / 2, 10)   # right pupil
 
     fill('red')
-    ellipse(x, y + 20, 10, 30 - stretch / 2)             # tongue
-
-    if jumping:
-        y += speed
-        speed += gravity
-        if y >= 200:
-            y = 200
-            speed = 0
-            jumping = False
+    ellipse(x, y + 20, 10, 30 - stretch / 2)   # tongue
 --- /code ---
 </div>
 
 <div class="c-project-output">
-![A frog mid-jump with lifted eyes and a squashed tongue](images/step_8.png)
+![Frog with rising eyes and shrinking tongue mid-jump](images/step_8.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
-### Tip 🎨
+### Tip
 
-You can adjust the stretch effect to exaggerate the motion.  
-Try making the tongue even shorter or the eyes move even higher!
+Adding or subtracting part of `stretch` from the eye or tongue position will animate them. <br />
+Smaller stretch = lower eyes and longer tongue. <br />
+Bigger stretch = higher eyes and a shorter tongue!
 
 </div>
 
 <div class="c-project-callout c-project-callout--debug">
 
-### Debugging 🔧
+### Debugging
 
-If nothing moves:<br />
-- Check that the **eyes and tongue** use `+ stretch / 2` or `- stretch / 2`<br />
-- Make sure `stretch` is changing while the frog is jumping
+If the eyes or tongue look strange:<br />
+- Double-check the `+ stretch / 2` or `- stretch / 2` parts<br />
+- Make sure you update both the white and black circles for each eye<br />
+- Try printing the `stretch` value to see what it’s doing
 
 </div>

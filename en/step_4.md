@@ -21,14 +21,9 @@ This makes the `y` position go up — remember, in code, smaller `y` means highe
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 1
-line_highlights: 11-12, 29-30
+line_number_start: 6
+line_highlights: 9-13, 24, 44-45
 ---
-from p5 import *
-
-x = 200
-y = 200
-speed = 0
 gravity = 1
 jumping = False
 
@@ -38,15 +33,19 @@ def mouse_pressed():
         jumping = True
         speed = -15
 
+
 def setup():
     size(400, 400)
+    no_stroke()
     global bg
     bg = load_image('background.png')
-    no_stroke()
+
 
 def draw():
     global y, speed, jumping
     image(bg, 0, 0, width, height)
+    
+    # Draw Frog here
     fill('green')
     ellipse(x, y, 100, 80)               # body
     ellipse(x - 30, y + 30, 30, 20)      # left foot
@@ -76,7 +75,7 @@ def draw():
 
 ### Tip 🧠
 
-Try changing the `speed` to `-10` or `-20` and see how high the frog jumps.  
+Try changing the `speed` to `-10` or `-20` and see how high the frog jumps. <br />
 Lower numbers = smaller jumps. Higher numbers = big hops! 🐸🚀
 
 </div>

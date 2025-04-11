@@ -19,48 +19,9 @@ Here’s how it works:
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 1
-line_highlights: 31-35
+line_number_start: 44
+line_highlights: 46-50
 ---
-from p5 import *
-
-x = 200
-y = 200
-speed = 0
-gravity = 1
-jumping = False
-
-def mouse_pressed():
-    global jumping, speed
-    if not jumping:
-        jumping = True
-        speed = -15
-
-def setup():
-    size(400, 400)
-    global bg
-    bg = load_image('background.png')
-    no_stroke()
-
-def draw():
-    global y, speed, jumping
-    image(bg, 0, 0, width, height)
-    fill('green')
-    ellipse(x, y, 100, 80)               # body
-    ellipse(x - 30, y + 30, 30, 20)      # left foot
-    ellipse(x + 30, y + 30, 30, 20)      # right foot
-
-    fill('white')
-    circle(x - 20, y - 40, 25)           # left eye
-    circle(x + 20, y - 40, 25)           # right eye
-
-    fill('black')
-    circle(x - 20, y - 40, 10)           # left pupil
-    circle(x + 20, y - 40, 10)           # right pupil
-
-    fill('red')
-    ellipse(x, y + 20, 10, 30)           # tongue
-
     if jumping:
         y += speed
         speed += gravity
@@ -79,8 +40,9 @@ def draw():
 
 ### Tip 🌟
 
-Try increasing or decreasing the `gravity` value to see how it affects your frog’s fall.  
-Higher numbers = faster landing. Lower numbers = slower fall. 🐸⬇️
+Try changing the `gravity` value. <br />
+A higher number will make the frog fall faster. <br />
+A smaller number will give your frog a gentler landing! 🐸🌬️
 
 </div>
 
@@ -89,8 +51,8 @@ Higher numbers = faster landing. Lower numbers = slower fall. 🐸⬇️
 ### Debugging 🧰
 
 If your frog never lands:<br />
-- Make sure `speed += gravity` is inside `if jumping:`<br />
-- Did you check that `y >= 200`?<br />
-- Be sure to reset `speed = 0` and `jumping = False`
+- Make sure `speed += gravity` is inside the `if jumping:` block<br />
+- Check for `y >= 200` as the landing condition<br />
+- Don't forget to reset `speed = 0` and `jumping = False`
 
 </div>
