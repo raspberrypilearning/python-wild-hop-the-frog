@@ -1,4 +1,4 @@
-name: "Python wild - Hop the Frog"
+name: "Hop the Frog"
 identifier: "python-wild-hop-the-frog"
-type: 'python'
+type: python
 build: true
