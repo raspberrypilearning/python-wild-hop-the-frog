@@ -10,6 +10,8 @@ last_tested: "2025-04-11"
 steps:
   - title: step_1
   - title: step_2
+    completion:
+        - engaged
   - title: step_3
   - title: step_4
   - title: step_5
@@ -17,5 +19,5 @@ steps:
   - title: step_7
   - title: step_8
     completion:
-      - engaged
+      - internal
       - external
