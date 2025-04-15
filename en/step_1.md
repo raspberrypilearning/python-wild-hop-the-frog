@@ -49,7 +49,7 @@ run()
 
 <div class="c-project-callout c-project-callout--tip">
 
-### Tip
+### More
 
 The `image()` function places the image at a position.  <br />
 To fill the screen, pass in `0, 0, width, height`.
