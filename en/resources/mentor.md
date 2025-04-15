@@ -1,4 +1,4 @@
-# Mentor Notes: Hop the Frog
+# Mentor Notes: Python wild - Hop the frog
 
 ## Project Overview
 
