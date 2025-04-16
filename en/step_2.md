@@ -46,6 +46,6 @@ def draw():
 ### Tip
 
 Try changing the numbers to see how the shapes move!  <br />
-Notice how each part is drawn **after** the background — otherwise it would be hidden. 🎨
+Notice how each part is drawn **after** the background — otherwise it would be hidden.
 
 </div>
