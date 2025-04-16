@@ -49,6 +49,6 @@ You can even change the value while jumping to make the stretch more dramatic! �
 
 If your frog doesn’t stretch:<br />
 - Check that `stretch = 30 if jumping else 0` comes before the `ellipse()`<br />
-- Make sure you’re using `80 + stretch` for the body height
+- Make sure you’re adding `stretch` to the body height
 
 </div>

@@ -5,7 +5,7 @@ Make the frog’s feet stretch as it jumps. 🐾
 
 <h2 class="c-project-heading--explainer">Push off with power!</h2>
 
-Now let’s stretch the frog’s legs as it leaps.  
+Now let’s stretch the frog’s legs as it jumps.  
 We’ll change the **height** of the feet using the same `stretch` variable.
 
 Multiply the `stretch` by a number to exaggerate the leg movement.  
@@ -28,8 +28,8 @@ def draw():
     stretch = 30 if jumping else 0
 
     ellipse(x, y, 100, 80 + stretch)                     # body
-    ellipse(x - 30, y + 30, 30, 20 + stretch * 3)        # left foot
-    ellipse(x + 30, y + 30, 30, 20 + stretch * 3)        # right foot
+    ellipse(x - 30, y + 30, 30, 20 + stretch * 3)        # left leg
+    ellipse(x + 30, y + 30, 30, 20 + stretch * 3)        # right leg
 --- /code ---
 </div>
 
@@ -41,7 +41,7 @@ def draw():
 
 ### Tip
 
-If the feet stretch too much, try multiplying by a smaller number. <br />
+If the legs stretch too much, try multiplying by a smaller number. <br />
 Stretching by `stretch * 2` will look gentler than `stretch * 3`.
 
 </div>
@@ -52,6 +52,6 @@ Stretching by `stretch * 2` will look gentler than `stretch * 3`.
 
 If the feet look wrong:<br />
 - Make sure you're adding `stretch * 3` to the **height** of each foot<br />
-- Double-check the position of the feet is still `x - 30` and `x + 30`
+- Double-check the position of the legs is still `x - 30` and `x + 30`
 
 </div>

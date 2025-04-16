@@ -48,8 +48,8 @@ def draw():
     # Draw Frog here
     fill('green')
     ellipse(x, y, 100, 80)               # body
-    ellipse(x - 30, y + 30, 30, 20)      # left foot
-    ellipse(x + 30, y + 30, 30, 20)      # right foot
+    ellipse(x - 30, y + 30, 30, 20)      # left leg
+    ellipse(x + 30, y + 30, 30, 20)      # right leg
 
     fill('white')
     circle(x - 20, y - 40, 25)           # left eye

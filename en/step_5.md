@@ -5,7 +5,7 @@ Use gravity to bring your frog back to the ground after it jumps. 🪂
 
 <h2 class="c-project-heading--explainer">Falling with style</h2>
 
-Right now, your frog jumps up and stays there. Let’s bring it back down to earth! 🌍  
+Right now, your frog jumps up and keeps going. Let’s bring it back down to earth! 🌍  
 We’ll use gravity to pull it down over time and land it safely.
 
 Here’s how it works:  
