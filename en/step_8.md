@@ -53,6 +53,5 @@ Bigger stretch = higher eyes and a shorter tongue!
 If the eyes or tongue look strange:<br />
 - Double-check the `+ stretch / 2` or `- stretch / 2` parts<br />
 - Make sure you update both the white and black circles for each eye<br />
-- Try printing the `stretch` value to see what it’s doing
 
 </div>

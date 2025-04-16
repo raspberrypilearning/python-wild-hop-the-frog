@@ -1,11 +1,11 @@
 <h2 class="c-project-heading--task">Draw the frog</h2>
 --- task ---
-Use ellipses to draw the frog’s body and feet. 🐸👣
+Use ellipses to draw the frog’s body and legs. 🐸🦵
 --- /task ---
 
-<h2 class="c-project-heading--explainer">Draw the body and feet</h2>
+<h2 class="c-project-heading--explainer">Draw the body and legs</h2>
 
-Your frog needs a body and feet!  
+Your frog needs a body and legs!  
 You’ll use `ellipse()` to draw ovals. 🥚
 
 The `ellipse()` function takes **4 arguments**:
@@ -32,8 +32,8 @@ def draw():
     # Draw Frog here
     fill('green')
     ellipse(x, y, 100, 80)               # body
-    ellipse(x - 30, y + 30, 30, 20)      # left foot
-    ellipse(x + 30, y + 30, 30, 20)      # right foot
+    ellipse(x - 30, y + 30, 30, 20)      # left leg
+    ellipse(x + 30, y + 30, 30, 20)      # right leg
 --- /code ---
 </div>
 
