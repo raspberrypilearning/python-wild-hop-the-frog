@@ -8,12 +8,12 @@ Use a variable to move the frog upwards when you click the mouse. 🖱️⬆️
 Let’s get your frog moving! 🐸💨  
 You’ll make it jump upwards when the mouse is clicked.
 
-We use a variable called `jumping` to keep track of whether the frog is in the air.  
-- When you click, we set `jumping = True`  
-- While `jumping` is `True`, the frog moves up using a `speed` value
+Use a variable called `jumping` to keep track of whether the frog is in the air.  
+- When you click (anywhere on the screen!), we set `jumping = True`  
+- If `jumping` is `True`, the frog moves up using a `speed` value
 
-To make the frog leap, we give it a small negative `speed` like `-15`.  
-This makes the `y` position go up — remember, in code, smaller `y` means higher up on the screen! 🎯
+To make the frog jump, we give it a small negative `speed` like `-15`.  
+This makes the `y` position go up — remember, in code, smaller `y` means higher up on the screen!
 
 <div class="c-project-code">
 --- code ---

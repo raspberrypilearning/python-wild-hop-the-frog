@@ -61,8 +61,8 @@ To fill the screen, pass in `0, 0, width, height`.
 ### Debugging
 
 If the background doesn’t appear:<br />
-- Make sure `load_image('background.png')` is inside `setup()`<br />
-- Double-check the spelling of the file name<br />
+- `global bg` needs to be in the `setup()` function.<br />
+- Make sure 'background.png' is in quotes.<br />
 - Use `image(bg, 0, 0, width, height)` in `draw()`
 
 </div>

@@ -7,7 +7,7 @@ Add white eyes with black pupils, and a red tongue underneath the frog.
 
 Let’s make your frog more expressive by adding two white eyes, black pupils, and a red tongue. 👀👅
 
-We’ll use `circle(x, y, size)` for the eyes and pupils — circles are just a simpler version of ellipses.
+Use `circle(x, y, size)` for the eyes and pupils — circles are just a simpler version of ellipses.
 
 <div class="c-project-code">
 --- code ---
@@ -48,7 +48,7 @@ def draw():
 
 ### Tip
 
-Try changing the size of the eyes or tongue!  
+Try changing the size of the eyes or tongue! <br />  
 What happens if you move the pupils closer together or further apart?
 
 </div>
