@@ -15,8 +15,8 @@ Use `circle(x, y, size)` for the eyes and pupils — circles are just a simpler 
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 23
-line_highlights: 32-34, 36-38, 40-41
+line_number_start: 16
+line_highlights: 25-27, 29-31, 33-34
 ---
 def draw():
     image(bg, 0, 0, width, height)
