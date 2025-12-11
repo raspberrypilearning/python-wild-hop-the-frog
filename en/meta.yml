@@ -4,7 +4,7 @@ description: Make a cartoon frog that jumps, stretches, and squashes as it hops 
 meta_title: Learn to code with Python Wild | Hop the Frog
 meta_description: Learn Python with the Raspberry Pi Foundation. Code a cartoon frog that hops and stretches with animation.
 version: 1
-listed: false
+listed: true
 copyedit: false
 last_tested: "2025-04-11"
 steps:
