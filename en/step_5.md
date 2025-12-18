@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Make the frog fall back down</h2>
+
 --- task ---
+
 Use gravity to bring your frog back to the ground after it jumps. 🪂
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Falling with style</h2>
@@ -22,6 +25,7 @@ line_numbers: true
 line_number_start: 44
 line_highlights: 46-50
 ---
+
     if jumping:
         y += speed
         speed += gravity
@@ -29,7 +33,9 @@ line_highlights: 46-50
             y = 200
             speed = 0
             jumping = False
+
 --- /code ---
+
 </div>
 
 <div class="c-project-output">

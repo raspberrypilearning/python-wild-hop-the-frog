@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Add a background</h2>
+
 --- task ---
+
 Add an image that fills the screen with a pond background. 🐸🌿
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Set the scene</h2>
@@ -19,6 +22,7 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 12-13, 17
 ---
+
 from p5 import *
 
 x = 200 # horizontal middle
@@ -40,6 +44,7 @@ def draw():
     # Draw Frog here
 
 run()
+
 --- /code ---
 </div>
 

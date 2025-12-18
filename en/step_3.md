@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Draw the eyes and tongue</h2>
+
 --- task ---
+
 Add white eyes with black pupils, and a red tongue underneath the frog.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Add some character</h2>
@@ -18,6 +21,7 @@ line_numbers: true
 line_number_start: 16
 line_highlights: 25-27, 29-31, 33-34
 ---
+
 def draw():
     image(bg, 0, 0, width, height)
     # Draw Frog here
@@ -37,6 +41,7 @@ def draw():
 
     fill('red')
     ellipse(x, y + 20, 10, 30)           # tongue
+
 --- /code ---
 </div>
 

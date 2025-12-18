@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Make the frog jump up</h2>
+
 --- task ---
+
 Use a variable to move the frog upwards when you click the mouse. 🖱️⬆️
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Time to hop!</h2>
@@ -24,6 +27,7 @@ line_numbers: true
 line_number_start: 6
 line_highlights: 9-13, 24, 44-45
 ---
+
 gravity = 1
 jumping = False
 
@@ -64,6 +68,7 @@ def draw():
 
     if jumping:
         y += speed
+
 --- /code ---
 </div>
 

@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Draw the frog</h2>
+
 --- task ---
+
 Use ellipses to draw the frog’s body and legs. 🐸🦵
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Draw the body and legs</h2>
@@ -26,6 +29,7 @@ line_numbers: true
 line_number_start: 16
 line_highlights: 20-23
 ---
+
 def draw():
     image(bg, 0, 0, width, height)
     
@@ -34,6 +38,7 @@ def draw():
     ellipse(x, y, 100, 80)               # body
     ellipse(x - 30, y + 30, 30, 20)      # left leg
     ellipse(x + 30, y + 30, 30, 20)      # right leg
+
 --- /code ---
 </div>
 
