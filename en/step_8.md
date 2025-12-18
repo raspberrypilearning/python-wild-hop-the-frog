@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Stretch the eyes and tongue</h2>
+
 --- task ---
+
 Make the frog’s eyes rise and its tongue shrink when it jumps! 👀👅
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Finishing touches</h2>
@@ -19,6 +22,7 @@ line_numbers: true
 line_number_start: 34
 line_highlights: 35-36, 39-40, 43
 ---
+
     fill('white')
     circle(x - 20, y - 40 + stretch / 2, 25)   # left eye
     circle(x + 20, y - 40 + stretch / 2, 25)   # right eye
@@ -29,6 +33,7 @@ line_highlights: 35-36, 39-40, 43
 
     fill('red')
     ellipse(x, y + 20, 10, 30 - stretch / 2)   # tongue
+
 --- /code ---
 </div>
 

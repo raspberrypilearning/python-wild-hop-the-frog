@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Stretch the frog</h2>
+
 --- task ---
+
 Stretch your frog’s body when it’s in the air. 🐸📏
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Leaping taller</h2>
@@ -19,6 +22,7 @@ line_numbers: true
 line_number_start: 23
 line_highlights: 26, 30
 ---
+
 def draw():
     global y, speed, jumping
     image(bg, 0, 0, width, height)
@@ -27,6 +31,7 @@ def draw():
     # Draw Frog here
     fill('green')
     ellipse(x, y, 100, 80 + stretch)     # body
+
 --- /code ---
 </div>
 
