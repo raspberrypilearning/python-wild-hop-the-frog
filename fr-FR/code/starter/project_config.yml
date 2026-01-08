@@ -1,0 +1,4 @@
+name: "Python wild - La grenouille qui saute"
+identifier: "python-wild-hop-the-frog"
+type: python
+build: true
