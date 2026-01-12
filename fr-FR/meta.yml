@@ -1,0 +1,23 @@
+title: Python wild - La grenouille qui saute
+hero_image: images/banner.png
+description: Crée une grenouille de dessin animé qui saute, s'étire et s'écrase en parcourant ton code.
+meta_title: Apprendre à coder avec Python Wild | La grenouille qui saute
+meta_description: Apprends Python avec la Raspberry Pi Foundation. Programme une grenouille animée qui saute et s'étire.
+version: 1
+listed: true
+copyedit: false
+last_tested: "2025-04-11"
+steps:
+  - title: step_1
+  - title: step_2
+    completion:
+        - engaged
+  - title: step_3
+  - title: step_4
+  - title: step_5
+  - title: step_6
+  - title: step_7
+  - title: step_8
+    completion:
+      - internal
+      - external
