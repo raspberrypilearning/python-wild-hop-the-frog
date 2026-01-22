@@ -1,0 +1,4 @@
+name: "Python wild - Hop de kikker"
+identifier: "python-wild-hop-the-frog"
+type: python
+build: true
