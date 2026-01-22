@@ -32,18 +32,15 @@ line_highlights: 20-23
 ---
 
 def draw():
-image(bg, 0, 0, width, height)
+    image(bg, 0, 0, width, height)
 
-    ```
     # Teken hier de kikker
     fill('green')
     ellipse(x, y, 100, 80) # lichaam
     ellipse(x - 30, y + 30, 30, 20) # linkerpoot
     ellipse(x + 30, y + 30, 30, 20) # rechterpoot
-    ```
 
 --- /code ---
-
 </div>
 
 <div class="c-project-output">

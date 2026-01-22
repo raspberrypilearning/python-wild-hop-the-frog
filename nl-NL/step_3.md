@@ -23,10 +23,9 @@ line_highlights: 25-27, 29-31, 33-34
 ---
 
 def draw():
-image(bg, 0, 0, width, height)
-\# Teken hier de kikker
+    image(bg, 0, 0, width, height)
+    # Teken hier de kikker
 
-    ```
     fill('green')
     ellipse(x, y, 100, 80) # lichaam
     ellipse(x - 30, y + 30, 30, 20) # linkerpoot
@@ -38,11 +37,10 @@ image(bg, 0, 0, width, height)
     
     fill('black')
     circle(x - 20, y - 40, 10) # linkerpupil
-    cirkel(x + 20, y - 40, 10) # rechterpupil
+    circle(x + 20, y - 40, 10) # rechterpupil
     
     fill('red')
-    ellips(x, y + 20, 10, 30) # tong
-    ```
+    ellipse(x, y + 20, 10, 30) # tong
 
 --- /code ---
 

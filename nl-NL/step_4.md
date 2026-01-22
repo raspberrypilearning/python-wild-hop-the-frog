@@ -33,22 +33,21 @@ zwaartekracht = 1
 springen = False
 
 def mouse_pressed():
-globale springen, snelheid
-if not springen:
-springen = True
-snelheid = -15
+    globale springen, snelheid
+    if not springen:
+    springen = True
+    snelheid = -15
 
 def setup():
-size(400, 400)
-no_stroke()
-global bg
-bg = load_image('background.png')
+    size(400, 400)
+    no_stroke()
+    global bg
+    bg = load_image('background.png')
 
 def draw():
-global y, snelheid, springen
-image(bg, 0, 0, width, height)
+    global y, snelheid, springen
+    image(bg, 0, 0, width, height)
 
-    ```
     # Teken de kikker hier
     fill('green')
     ellipse(x, y, 100, 80) # lichaam
@@ -60,15 +59,14 @@ image(bg, 0, 0, width, height)
     circle(x + 20, y - 40, 25) # rechteroog
     
     fill('black')
-    cirkel(x - 20, y - 40, 10) # linkerpupil
-    cirkel(x + 20, y - 40, 10) # rechter pupil
+    circle(x - 20, y - 40, 10) # linkerpupil
+    circle(x + 20, y - 40, 10) # rechter pupil
     
-    vullen('red')
-    ellips(x, y + 20, 10, 30) # tong
+    fill('red')
+    ellipse(x, y + 20, 10, 30) # tong
     
     if springen:
         y += snelheid
-    ```
 
 --- /code ---
 

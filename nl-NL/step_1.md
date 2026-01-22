@@ -23,7 +23,7 @@ line_number_start: 1
 line_highlights: 12-13, 17
 ---
 
-from p5 import \*
+from p5 import *
 
 x = 200 # horizontaal midden
 y = 200 # verticaal midden
@@ -32,17 +32,15 @@ zwaartekracht = 1
 springen = False
 
 def setup():
-size(400, 400)
-no_stroke()
-global bg
-bg = load_image('background.png')
+    size(400, 400)
+    no_stroke()
+    global bg
+    bg = load_image('background.png')
 
 def draw():
-image(bg, 0, 0, width, height)
+    image(bg, 0, 0, width, height)
 
-    ```
     # Teken Kikker hier
-    ```
 
 run()
 

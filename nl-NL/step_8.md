@@ -23,7 +23,6 @@ line_number_start: 34
 line_highlights: 35-36, 39-40, 43
 ---
 
-    ```
     fill('white')
     circle(x - 20, y - 40 + rek / 2, 25) # linkeroog
     circle(x + 20, y - 40 + rek / 2, 25) # rechteroog
@@ -34,7 +33,6 @@ line_highlights: 35-36, 39-40, 43
     
     fill('red')
     ellipse(x, y + 20, 10, 30 - rek / 2) # tong
-    ```
 
 --- /code ---
 
@@ -72,17 +70,17 @@ Als de ogen of de tong er vreemd uitzien:<br />
 Dit is een bètaproject, wat betekent dat het gloednieuw is en nog niet algemeen beschikbaar. Als je dit project zelf of met je club hebt getest, laat ons dan weten wat je ervan vindt.
 
 <a href="https://form.raspberrypi.org/4874054?tfa_6933=python-wild-hop-the-frog" style="
-display: inline-block;
-padding: 10px 20px;
-border: 2px solid black;
-border-radius: 999px;
-font-weight: bold;
-font-size: 16px;
-background-color: white;
-color: black;
-text-align: center;
-text-decoration: none;
-transition: background-color 0.2s;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 999px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
 " onmouseover="this.style.backgroundColor='#f0f0f0';" onmouseout="this.style.backgroundColor='white';">
 Geef feedback </a>
 
@@ -91,10 +89,8 @@ Geef feedback </a>
 ***
 Dit project werd vertaald door vrijwilligers:
 
-[name]
+Robert-Jan Kempenaar
 
-[name]
-
-[name]
+Iny van Beuningen
 
 Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).

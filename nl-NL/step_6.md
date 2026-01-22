@@ -24,15 +24,13 @@ line_highlights: 26, 30
 ---
 
 def draw():
-global y, snelheid, springen
-image(bg, 0, 0, width, height)
-rek = 30 if springen else 0
+    global y, snelheid, springen
+    image(bg, 0, 0, width, height)
+    rek = 30 if springen else 0
 
-    ```
     # Teken hier een kikker
     fill('green')
     ellipse(x, y, 100, 80 + rek) # lichaam
-    ```
 
 --- /code ---
 

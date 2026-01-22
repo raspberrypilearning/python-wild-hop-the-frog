@@ -27,7 +27,6 @@ line_number_start: 44
 line_highlights: 46-50
 ---
 
-    ```
     if springen:
         y += snelheid
         snelheid += zwaartekracht
@@ -35,7 +34,6 @@ line_highlights: 46-50
             y = 200
             snelheid = 0
             springen = False
-    ```
 
 --- /code ---
 
