@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Strek de ogen en de tong</h2>
 
-\--- task ---
+--- task ---
 
 Laat de ogen van de kikker omhoog gaan en zijn tong inkrimpen wanneer hij springt! 👀👅
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Afwerking</h2>
 
@@ -36,7 +36,7 @@ line_highlights: 35-36, 39-40, 43
     ellipse(x, y + 20, 10, 30 - rek / 2) # tong
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 
@@ -87,3 +87,14 @@ transition: background-color 0.2s;
 Geef feedback </a>
 
 </div>
+
+***
+Dit project werd vertaald door vrijwilligers:
+
+[name]
+
+[name]
+
+[name]
+
+Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).

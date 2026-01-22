@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Teken de ogen en de tong</h2>
 
-\--- task ---
+--- task ---
 
 Voeg witte ogen met zwarte pupillen toe en een rode tong aan de onderkant van de kikker.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Voeg wat karakter toe</h2>
 
@@ -44,7 +44,7 @@ image(bg, 0, 0, width, height)
     ellips(x, y + 20, 10, 30) # tong
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 

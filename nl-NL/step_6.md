@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Rek de kikker uit</h2>
 
-\--- task ---
+--- task ---
 
 Rek het lichaam van je kikker uit wanneer deze in de lucht is. 🐸📏
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Groter tijdens springen</h2>
 
@@ -34,7 +34,7 @@ rek = 30 if springen else 0
     ellipse(x, y, 100, 80 + rek) # lichaam
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 

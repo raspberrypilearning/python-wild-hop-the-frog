@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Voeg een achtergrond toe</h2>
 
-\--- task ---
+--- task ---
 
 Voeg een afbeelding toe die het hele scherm vult met een vijver op de achtergrond. 🐸🌿
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Het opzetten van de scene</h2>
 
@@ -46,7 +46,7 @@ image(bg, 0, 0, width, height)
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 

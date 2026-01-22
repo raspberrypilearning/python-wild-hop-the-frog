@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Laat de kikker terugvallen</h2>
 
-\--- task ---
+--- task ---
 
 Gebruik de zwaartekracht om je kikker na de sprong weer op de grond te krijgen. 🪂
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Stijlvol vallen</h2>
 
@@ -37,7 +37,7 @@ line_highlights: 46-50
             springen = False
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 

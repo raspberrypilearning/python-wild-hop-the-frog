@@ -1,8 +1,9 @@
+---
 title: Python wild - Hop de kikker
 hero_image: images/banner.png
 description: Maak een cartoonkikker die springt, zich uitrekt en in elkaar zakt terwijl hij door je code huppelt.
-meta_title: Leer programmeren met Python Wild | Hop de kikker
-meta_description: Leer Python met de Raspberry Pi Foundation. Programmeer een cartoonkikker die huppelt en zich uitrekt met animatie.
+meta_title: Learn to code with Python Wild | Hop the Frog
+meta_description: Learn Python with the Raspberry Pi Foundation. Code a cartoon frog that hops and stretches with animation.
 version: 1
 listed: true
 copyedit: false
@@ -11,7 +12,7 @@ steps:
   - title: step_1
   - title: step_2
     completion:
-        - engaged
+      - engaged
   - title: step_3
   - title: step_4
   - title: step_5

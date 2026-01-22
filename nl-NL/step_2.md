@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Teken de kikker</h2>
 
-\--- task ---
+--- task ---
 
 Teken het lichaam en de poten van de kikker met behulp van ellipsen. 🐸🦵
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Teken het lichaam en de poten</h2>
 
@@ -42,7 +42,7 @@ image(bg, 0, 0, width, height)
     ellipse(x + 30, y + 30, 30, 20) # rechterpoot
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 

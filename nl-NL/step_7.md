@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Strek de poten van de kikker</h2>
 
-\--- task ---
+--- task ---
 
 Laat de poten van de kikker zich strekken terwijl hij springt. 🐾
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Zet krachtig af!</h2>
 
@@ -37,7 +37,7 @@ fill('green')
     ellipse(x + 30, y + 30, 30, 20 + rek * 3) # rechterpoot
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 

@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Laat de kikker omhoog springen</h2>
 
-\--- task ---
+--- task ---
 
 Gebruik een variabele om de kikker omhoog te bewegen wanneer je met de muis klikt. 🖱️⬆️
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Tijd om te springen!</h2>
 
@@ -70,7 +70,7 @@ image(bg, 0, 0, width, height)
         y += snelheid
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 
