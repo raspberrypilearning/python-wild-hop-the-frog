@@ -23,26 +23,25 @@ line_highlights: 25-27, 29-31, 33-34
 ---
 
 def draw():
-image(bg, 0, 0, width, height)
-\# Dessiner une grenouille ici
+    image(bg, 0, 0, width, height)
+    # Dessiner une grenouille ici
 
-    ```
     fill('green')
     ellipse(x, y, 100, 80) # corps
     ellipse(x - 30, y + 30, 30, 20) # jambe gauche
     ellipse(x + 30, y + 30, 30, 20) # jambe droite
     
     fill('white')
-    cercle(x - 20, y - 40, 25) # œil gauche
-    cercle(x + 20, y - 40, 25) # œil droit
+    circle(x - 20, y - 40, 25) # œil gauche
+    circle(x + 20, y - 40, 25) # œil droit
     
     fill('black')
-    cercle(x - 20, y - 40, 10) # pupille gauche
-    cercle(x + 20, y - 40, 10) # pupille droite
+    circle(x - 20, y - 40, 10) # pupille gauche
+    circle(x + 20, y - 40, 10) # pupille droite
     
     fill('red')
     ellipse(x, y + 20, 10, 30) # langue
-    ```
+
 
 --- /code ---
 

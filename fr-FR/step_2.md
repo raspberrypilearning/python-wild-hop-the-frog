@@ -32,15 +32,13 @@ line_highlights: 20-23
 ---
 
 def draw():
-image(bg, 0, 0, width, height)
+    image(bg, 0, 0, width, height)
 
-    ```
     # Dessiner une grenouille ici
     fill('green')
     ellipse(x, y, 100, 80) # corps
     ellipse(x - 30, y + 30, 30, 20) # patte gauche
     ellipse(x + 30, y + 30, 30, 20) # patte droite
-    ```
 
 --- /code ---
 

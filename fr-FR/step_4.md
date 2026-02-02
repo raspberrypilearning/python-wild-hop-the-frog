@@ -29,26 +29,25 @@ line_number_start: 6
 line_highlights: 9-13, 24, 44-45
 ---
 
-gravité = 1
+gravite = 1
 saut = False
 
 def mouse_pressed():
-global sauter, vitesse
-if not sauter:
-sauter = True
-vitesse = -15
+    global sauter, vitesse
+    if not sauter:
+        sauter = True
+        vitesse = -15
 
 def setup():
-size(400, 400)
-no_stroke()
-global bg
-bg = load_image('background.png')
+    size(400, 400)
+    no_stroke()
+    global bg
+    bg = load_image('background.png')
 
 def draw():
-global y, vitesse, sauter
-image(bg, 0, 0, width, height)
+    global y, vitesse, sauter
+    image(bg, 0, 0, width, height)
 
-    ```
     # Dessiner une grenouille ici
     fill('green')
     ellipse(x, y, 100, 80)               # corps
@@ -68,7 +67,6 @@ image(bg, 0, 0, width, height)
     
     if sauter:
         y += vitesse
-    ```
 
 --- /code ---
 

@@ -8,7 +8,7 @@ Ajoute une image qui remplit l'écran avec un étang en arrière-plan. 🐸🌿
 
 <h2 class="c-project-heading--explainer">Planter le décor</h2>
 
-Commençons par ajouter un étang en arrière-plan à ton écran.  
+Commençons par ajouter un étang en arrière-plan à ton écran. 
 Tu utiliseras `load_image()` pour charger une image et `image()` pour la dessiner à chaque image.
 
 L'image est déjà fournie et enregistrée sous le nom **`background.png`** dans le même dossier que ton code.
@@ -23,26 +23,25 @@ line_number_start: 1
 line_highlights: 12-13, 17
 ---
 
-from p5 import \*
+from p5 import *
 
 x = 200 # milieu horizontal
 y = 200 # milieu vertical
 vitesse = 0
-gravité = 1
+gravite = 1
 sauter = False
 
 def setup():
-size(400, 400)
-no_stroke()
-global bg
-bg = load_image('background.png')
+    size(400, 400)
+    no_stroke()
+    global bg
+    bg = load_image('background.png')
 
 def draw():
-image(bg, 0, 0, width, height)
+    image(bg, 0, 0, width, height)
 
-    ```
     # Dessiner une grenouille ici
-    ```
+
 
 run()
 

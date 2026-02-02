@@ -27,7 +27,6 @@ line_number_start: 44
 line_highlights: 46-50
 ---
 
-    ```
     if sauter:
         y += vitesse
         vitesse += gravité
@@ -35,7 +34,6 @@ line_highlights: 46-50
             y = 200
             vitesse = 0
             sauter = False
-    ```
 
 --- /code ---
 

@@ -24,15 +24,13 @@ line_highlights: 26, 30
 ---
 
 def draw():
-global y, vitesse, sauter
-image(bg, 0, 0, width, height)
-etriement = 30 if sauter else 0
+    global y, vitesse, sauter
+    image(bg, 0, 0, width, height)
+    etriement = 30 if sauter else 0
 
-    ```
     # Dessiner la grenouille ici
     fill('green')
     ellipse(x, y, 100, 80 + etirement) # corps
-    ```
 
 --- /code ---
 
