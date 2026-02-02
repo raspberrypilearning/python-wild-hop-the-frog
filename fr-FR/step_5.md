@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Faire retomber la grenouille</h2>
 
-\--- task ---
+--- task ---
 
 Utilise la gravité pour ramener ta grenouille au sol après son saut. 🪂
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Tomber avec style</h2>
 
@@ -37,7 +37,7 @@ line_highlights: 46-50
             sauter = False
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 

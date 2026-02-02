@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Étirer les pattes de la grenouille</h2>
 
-\--- task ---
+--- task ---
 
 Fais étirer les pattes de la grenouille lorsqu'elle saute. 🐾
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Propulser avec puissance !</h2>
 
@@ -37,7 +37,7 @@ fill('green')
     ellipse(x + 30, y + 30, 30, 20 + etirement * 3)        # jambe droite
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 

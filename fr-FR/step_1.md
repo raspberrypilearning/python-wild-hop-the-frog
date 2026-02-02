@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Ajouter un arrière-plan</h2>
 
-\--- task ---
+--- task ---
 
 Ajoute une image qui remplit l'écran avec un étang en arrière-plan. 🐸🌿
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Planter le décor</h2>
 
@@ -46,7 +46,7 @@ image(bg, 0, 0, width, height)
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 

@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Faire sauter la grenouille vers le haut</h2>
 
-\--- task ---
+--- task ---
 
 Utilise une variable pour déplacer la grenouille vers le haut lorsque tu cliques avec la souris. 🖱️⬆️
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">C'est l'heure de sauter !</h2>
 
@@ -70,7 +70,7 @@ image(bg, 0, 0, width, height)
         y += vitesse
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 

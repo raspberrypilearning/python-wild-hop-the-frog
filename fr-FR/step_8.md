@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Étirer les yeux et la langue</h2>
 
-\--- task ---
+--- task ---
 
 Fais lever les yeux de la grenouille et rétracter sa langue lorsqu'elle saute ! 👀👅
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Touches finales</h2>
 
@@ -36,7 +36,7 @@ line_highlights: 35-36, 39-40, 43
     ellipse(x, y + 20, 10, 30 - etirement / 2)   # langue
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 
@@ -87,3 +87,14 @@ transition: background-color 0.2s;
 Donner ton avis </a>
 
 </div>
+
+***
+Ce projet a été traduit par des bénévoles:
+
+[name]
+
+[name]
+
+[name]
+
+Grâce aux bénévoles, nous pouvons donner aux gens du monde entier la chance d'apprendre dans leur propre langue. Vous pouvez nous aider à atteindre plus de personnes en vous portant volontaire pour la traduction - plus d'informations sur [rpf.io/translate](https://rpf.io/translate).

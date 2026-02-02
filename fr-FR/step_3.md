@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Dessiner les yeux et la langue</h2>
 
-\--- task ---
+--- task ---
 
 Ajoute des yeux blancs à pupilles noires et une langue rouge sous la grenouille.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Ajouter du caractère</h2>
 
@@ -44,7 +44,7 @@ image(bg, 0, 0, width, height)
     ellipse(x, y + 20, 10, 30) # langue
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 

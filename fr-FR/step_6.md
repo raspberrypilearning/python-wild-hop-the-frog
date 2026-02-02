@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Étirer la grenouille</h2>
 
-\--- task ---
+--- task ---
 
 Étire le corps de ta grenouille lorsqu'elle est en l'air. 🐸📏
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Sauter plus haut</h2>
 
@@ -34,7 +34,7 @@ etriement = 30 if sauter else 0
     ellipse(x, y, 100, 80 + etirement) # corps
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 
