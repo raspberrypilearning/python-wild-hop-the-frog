@@ -12,7 +12,7 @@ steps:
   - title: step_1
   - title: step_2
     completion:
-        - engaged
+    - engaged
   - title: step_3
   - title: step_4
   - title: step_5
