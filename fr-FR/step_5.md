@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Faire retomber la grenouille</h2>
 
---- task ---
+\--- task ---
 
 Utilise la gravité pour ramener ta grenouille au sol après son saut. 🪂
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Tomber avec style</h2>
 
@@ -27,6 +27,7 @@ line_number_start: 44
 line_highlights: 46-50
 ---
 
+    ```
     if sauter:
         y += vitesse
         vitesse += gravité
@@ -34,8 +35,9 @@ line_highlights: 46-50
             y = 200
             vitesse = 0
             sauter = False
+    ```
 
---- /code ---
+\--- /code ---
 
 </div>
 

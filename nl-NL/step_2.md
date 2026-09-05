@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Teken de kikker</h2>
 
---- task ---
+\--- task ---
 
 Teken het lichaam en de poten van de kikker met behulp van ellipsen. 🐸🦵
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Teken het lichaam en de poten</h2>
 
@@ -32,15 +32,18 @@ line_highlights: 20-23
 ---
 
 def draw():
-    image(bg, 0, 0, width, height)
+image(bg, 0, 0, width, height)
 
+    ```
     # Teken hier de kikker
     fill('green')
     ellipse(x, y, 100, 80) # lichaam
     ellipse(x - 30, y + 30, 30, 20) # linkerpoot
     ellipse(x + 30, y + 30, 30, 20) # rechterpoot
+    ```
 
---- /code ---
+\--- /code ---
+
 </div>
 
 <div class="c-project-output">
