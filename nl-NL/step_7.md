@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Strek de poten van de kikker</h2>
 
---- task ---
+\--- task ---
 
 Laat de poten van de kikker zich strekken terwijl hij springt. 🐾
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Zet krachtig af!</h2>
 
@@ -25,17 +25,20 @@ line_highlights: 31-32
 ---
 
 def draw():
-    global y, snelheid, springen
-    image(bg, 0, 0, width, height)
-    fill('green')
+global y, snelheid, springen
+image(bg, 0, 0, width, height)
+fill('green')
 
+    ```
     rek = 30 if springen else 0
     
     ellipse(x, y, 100, 80 + rek) # lichaam
     ellipse(x - 30, y + 30, 30, 20 + rek * 3) # linkerpoot
     ellipse(x + 30, y + 30, 30, 20 + rek * 3) # rechterpoot
+    ```
 
---- /code ---
+\--- /code ---
+
 </div>
 
 <div class="c-project-output">
