@@ -3,7 +3,7 @@ from p5 import *
 x = 200 # milieu horizontal
 y = 200 # milieu vertical
 vitesse = 0
-gravite = 1
+gravité = 1
 sauter = False
 
 def mouse_pressed():
@@ -42,7 +42,7 @@ def draw():
 
     if sauter:
         y += vitesse
-        vitesse += gravite
+        vitesse += gravité
         if y >= 200:
             y = 200
             vitesse = 0
