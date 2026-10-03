@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Laat de kikker terugvallen</h2>
 
---- task ---
+\--- task ---
 
 Gebruik de zwaartekracht om je kikker na de sprong weer op de grond te krijgen. 🪂
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Stijlvol vallen</h2>
 
@@ -27,6 +27,7 @@ line_number_start: 44
 line_highlights: 46-50
 ---
 
+    ```
     if springen:
         y += snelheid
         snelheid += zwaartekracht
@@ -34,8 +35,9 @@ line_highlights: 46-50
             y = 200
             snelheid = 0
             springen = False
+    ```
 
---- /code ---
+\--- /code ---
 
 </div>
 
