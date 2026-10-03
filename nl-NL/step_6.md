@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Rek de kikker uit</h2>
 
---- task ---
+\--- task ---
 
 Rek het lichaam van je kikker uit wanneer deze in de lucht is. 🐸📏
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Groter tijdens springen</h2>
 
@@ -24,15 +24,17 @@ line_highlights: 26, 30
 ---
 
 def draw():
-    global y, snelheid, springen
-    image(bg, 0, 0, width, height)
-    rek = 30 if springen else 0
+global y, snelheid, springen
+image(bg, 0, 0, width, height)
+rek = 30 if springen else 0
 
+    ```
     # Teken hier een kikker
     fill('green')
     ellipse(x, y, 100, 80 + rek) # lichaam
+    ```
 
---- /code ---
+\--- /code ---
 
 </div>
 
