@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Teken de ogen en de tong</h2>
 
---- task ---
+\--- task ---
 
 Voeg witte ogen met zwarte pupillen toe en een rode tong aan de onderkant van de kikker.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Voeg wat karakter toe</h2>
 
@@ -23,9 +23,10 @@ line_highlights: 25-27, 29-31, 33-34
 ---
 
 def draw():
-    image(bg, 0, 0, width, height)
-    # Teken hier de kikker
+image(bg, 0, 0, width, height)
+\# Teken hier de kikker
 
+    ```
     fill('green')
     ellipse(x, y, 100, 80) # lichaam
     ellipse(x - 30, y + 30, 30, 20) # linkerpoot
@@ -37,12 +38,13 @@ def draw():
     
     fill('black')
     circle(x - 20, y - 40, 10) # linkerpupil
-    circle(x + 20, y - 40, 10) # rechterpupil
+    cirkel(x + 20, y - 40, 10) # rechterpupil
     
     fill('red')
-    ellipse(x, y + 20, 10, 30) # tong
+    ellips(x, y + 20, 10, 30) # tong
+    ```
 
---- /code ---
+\--- /code ---
 
 </div>
 

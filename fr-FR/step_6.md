@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Étirer la grenouille</h2>
 
---- task ---
+\--- task ---
 
 Étire le corps de ta grenouille lorsqu'elle est en l'air. 🐸📏
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Sauter plus haut</h2>
 
@@ -24,15 +24,17 @@ line_highlights: 26, 30
 ---
 
 def draw():
-    global y, vitesse, sauter
-    image(bg, 0, 0, width, height)
-    etriement = 30 if sauter else 0
+global y, vitesse, sauter
+image(bg, 0, 0, width, height)
+etriement = 30 if sauter else 0
 
+    ```
     # Dessiner la grenouille ici
     fill('green')
     ellipse(x, y, 100, 80 + etirement) # corps
+    ```
 
---- /code ---
+\--- /code ---
 
 </div>
 
