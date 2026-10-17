@@ -1,4 +1,3 @@
----
 title: Python wild - La grenouille qui saute
 hero_image: images/banner.png
 description: Crée une grenouille de dessin animé qui saute, s'étire et s'écrase en parcourant ton code.
@@ -12,7 +11,7 @@ steps:
   - title: step_1
   - title: step_2
     completion:
-      - engaged
+        - engaged
   - title: step_3
   - title: step_4
   - title: step_5
