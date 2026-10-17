@@ -1,0 +1,23 @@
+title: Python wild — стрибай, жабко!
+hero_image: images/banner.png
+description: Створи мультяшну жабку, яка стрибає, розтягується та сплющується, коли стрибає у твоєму коді.
+meta_title: Вивчай код на Python із Wild | Стрибай із Жабкою
+meta_description: Вивчай Python разом із Raspberry Pi Foundation. Створи кодом мультяшну жабку, яка стрибає та розтягується з анімацією.
+version: 1
+listed: true
+copyedit: false
+last_tested: "2025-04-11"
+steps:
+  - title: step_1
+  - title: step_2
+    completion:
+        - engaged
+  - title: step_3
+  - title: step_4
+  - title: step_5
+  - title: step_6
+  - title: step_7
+  - title: step_8
+    completion:
+      - internal
+      - external
