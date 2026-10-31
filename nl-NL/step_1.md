@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Voeg een achtergrond toe</h2>
 
---- task ---
+\--- task ---
 
 Voeg een afbeelding toe die het hele scherm vult met een vijver op de achtergrond. 🐸🌿
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Het opzetten van de scene</h2>
 
@@ -23,7 +23,7 @@ line_number_start: 1
 line_highlights: 12-13, 17
 ---
 
-from p5 import *
+from p5 import \*
 
 x = 200 # horizontaal midden
 y = 200 # verticaal midden
@@ -32,19 +32,21 @@ zwaartekracht = 1
 springen = False
 
 def setup():
-    size(400, 400)
-    no_stroke()
-    global bg
-    bg = load_image('background.png')
+size(400, 400)
+no_stroke()
+global bg
+bg = load_image('background.png')
 
 def draw():
-    image(bg, 0, 0, width, height)
+image(bg, 0, 0, width, height)
 
+    ```
     # Teken Kikker hier
+    ```
 
 run()
 
---- /code ---
+\--- /code ---
 
 </div>
 
