@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Étirer les pattes de la grenouille</h2>
 
---- task ---
+\--- task ---
 
 Fais étirer les pattes de la grenouille lorsqu'elle saute. 🐾
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Propulser avec puissance !</h2>
 
@@ -25,17 +25,19 @@ line_highlights: 31-32
 ---
 
 def draw():
-    global y, vitesse, sauter
-    image(bg, 0, 0, width, height)
-    fill('green')
+global y, vitesse, sauter
+image(bg, 0, 0, width, height)
+fill('green')
 
+    ```
     etirement = 30 if sauter else 0
     
-    ellipse(x, y, 100, 80 + etirement) # corps
-    ellipse(x - 30, y + 30, 30, 20 + etirement * 3) # jambe gauche
-    ellipse(x + 30, y + 30, 30, 20 + etirement * 3)  # jambe droite
+    ellipse(x, y, 100, 80 + etirement)                     # corps
+    ellipse(x - 30, y + 30, 30, 20 + etirement * 3)        # jambe gauche
+    ellipse(x + 30, y + 30, 30, 20 + etirement * 3)        # jambe droite
+    ```
 
---- /code ---
+\--- /code ---
 
 </div>
 
