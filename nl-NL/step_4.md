@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Laat de kikker omhoog springen</h2>
 
---- task ---
+\--- task ---
 
 Gebruik een variabele om de kikker omhoog te bewegen wanneer je met de muis klikt. 🖱️⬆️
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Tijd om te springen!</h2>
 
@@ -33,21 +33,22 @@ zwaartekracht = 1
 springen = False
 
 def mouse_pressed():
-    globale springen, snelheid
-    if not springen:
-    springen = True
-    snelheid = -15
+globale springen, snelheid
+if not springen:
+springen = True
+snelheid = -15
 
 def setup():
-    size(400, 400)
-    no_stroke()
-    global bg
-    bg = load_image('background.png')
+size(400, 400)
+no_stroke()
+global bg
+bg = load_image('background.png')
 
 def draw():
-    global y, snelheid, springen
-    image(bg, 0, 0, width, height)
+global y, snelheid, springen
+image(bg, 0, 0, width, height)
 
+    ```
     # Teken de kikker hier
     fill('green')
     ellipse(x, y, 100, 80) # lichaam
@@ -59,16 +60,17 @@ def draw():
     circle(x + 20, y - 40, 25) # rechteroog
     
     fill('black')
-    circle(x - 20, y - 40, 10) # linkerpupil
-    circle(x + 20, y - 40, 10) # rechter pupil
+    cirkel(x - 20, y - 40, 10) # linkerpupil
+    cirkel(x + 20, y - 40, 10) # rechter pupil
     
-    fill('red')
-    ellipse(x, y + 20, 10, 30) # tong
+    vullen('red')
+    ellips(x, y + 20, 10, 30) # tong
     
     if springen:
         y += snelheid
+    ```
 
---- /code ---
+\--- /code ---
 
 </div>
 

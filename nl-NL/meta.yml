@@ -1,4 +1,3 @@
----
 title: Python wild - Hop de kikker
 hero_image: images/banner.png
 description: Maak een cartoonkikker die springt, zich uitrekt en in elkaar zakt terwijl hij door je code huppelt.
@@ -12,7 +11,7 @@ steps:
   - title: step_1
   - title: step_2
     completion:
-    - engaged
+        - engaged
   - title: step_3
   - title: step_4
   - title: step_5
