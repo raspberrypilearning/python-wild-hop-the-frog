@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Dessiner les yeux et la langue</h2>
 
---- task ---
+\--- task ---
 
 Ajoute des yeux blancs à pupilles noires et une langue rouge sous la grenouille.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Ajouter du caractère</h2>
 
@@ -23,27 +23,28 @@ line_highlights: 25-27, 29-31, 33-34
 ---
 
 def draw():
-    image(bg, 0, 0, width, height)
-    # Dessiner une grenouille ici
+image(bg, 0, 0, width, height)
+\# Dessiner une grenouille ici
 
+    ```
     fill('green')
     ellipse(x, y, 100, 80) # corps
     ellipse(x - 30, y + 30, 30, 20) # jambe gauche
     ellipse(x + 30, y + 30, 30, 20) # jambe droite
     
     fill('white')
-    circle(x - 20, y - 40, 25) # œil gauche
-    circle(x + 20, y - 40, 25) # œil droit
+    cercle(x - 20, y - 40, 25) # œil gauche
+    cercle(x + 20, y - 40, 25) # œil droit
     
     fill('black')
-    circle(x - 20, y - 40, 10) # pupille gauche
-    circle(x + 20, y - 40, 10) # pupille droite
+    cercle(x - 20, y - 40, 10) # pupille gauche
+    cercle(x + 20, y - 40, 10) # pupille droite
     
     fill('red')
     ellipse(x, y + 20, 10, 30) # langue
+    ```
 
-
---- /code ---
+\--- /code ---
 
 </div>
 
