@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Dessiner la grenouille</h2>
 
---- task ---
+\--- task ---
 
 Utilise des ellipses pour dessiner le corps et les pattes de la grenouille. 🐸🦵
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Dessiner le corps et les jambes</h2>
 
@@ -32,15 +32,17 @@ line_highlights: 20-23
 ---
 
 def draw():
-    image(bg, 0, 0, width, height)
+image(bg, 0, 0, width, height)
 
+    ```
     # Dessiner une grenouille ici
     fill('green')
     ellipse(x, y, 100, 80) # corps
     ellipse(x - 30, y + 30, 30, 20) # patte gauche
     ellipse(x + 30, y + 30, 30, 20) # patte droite
+    ```
 
---- /code ---
+\--- /code ---
 
 </div>
 
